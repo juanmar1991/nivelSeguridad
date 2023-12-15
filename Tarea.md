@@ -47,9 +47,9 @@ En este trabajo nos centraremos en uno de los puntos de la lista, concretamente 
 
 ### 3. Análisis de la vulnerabilidad ###
 
-**Fallos en el registro y monitoreo** ocupa actualmente la novena posición del Top10 de OWASP. Hace referencia a la insuficiencia o ineficacia de los mecanismos de registro y monitoreo de las aplicaciones, lo que puede provocar que no se detecten ataques o fallos de seguridad. Es una vulnerabilidad crítica, porque un sistema robusto que analice y monitorice la seguridad es esencial para poder detectar y responder ante ataques. 
+**Fallos en el registro y monitoreo** ocupa actualmente la novena posición del Top10 de OWASP. Hace referencia a la insuficiencia o ineficacia de los mecanismos de registro y monitoreo de las aplicaciones, lo que puede provocar que no se detecten ataques o brechas de seguridad. Es una vulnerabilidad crítica, porque un sistema robusto que analice y monitorice la seguridad es esencial para poder detectar y responder ante ataques. 
 
-Las herramientas de registro y monitoreo nos ayudan a identificar patrones inusuales sospechosos, señales de que se puede estar produciendo un ataque o una falla de seguridad. Son importantes porque sin ellas será muy difícil detectar el peligro, y mucho menos hacerle frente. No saber qué parte del sistema es vulnerable para arreglarla por desconocer incluso que ha habido un ataque por esa parte.
+Las herramientas de registro y monitoreo nos ayudan a identificar patrones inusuales sospechosos, señales de que se puede estar produciendo un ataque o una brecha de seguridad. Son importantes porque sin ellas será muy difícil detectar el peligro, y mucho menos hacerle frente. No saber qué parte del sistema es vulnerable para arreglarla por desconocer incluso que ha habido un ataque por esa parte.
 
 ![ladron](img/ladron.jpg)
 
@@ -59,5 +59,11 @@ _Cuando un ladrón entra en una casa particular, tiene primero que pisar el cés
 
 Las consecuencias de esta vulnerabilidad son bastante importantes, se tarda más tiempo en detectar una brecha de seguridad, si es que se detecta, habiendo también imposibilidad de hacer un seguimiento adecuado a las señales sospechosas. Derivado de esto estaría la incapacidad de encontrar puntos vulnerables en el sistema al no poder realizar de forma adecuada una auditoría. Por último estaría el apartado de la normativa, donde seguro se incumpliría en muchos casos, lo que podría conllevar multas.
 
-Para solventar esta vulnerabilidad se pueden aplicar buenas prácticas, como por ejemplo implementar un sistema de registro, 
+En cualquier momento pueden suceder eventos auditables, como inicios de sesión o transacciones de alto valor que tienen que ser registradas. Las advertencias y los errores tienen que generar registros claros y adecuados para identificar qué está fallando, y tienen que ser monitoreados para detectar actividades sospechosas. Los umbrales de alerta deben estar bien implementados para que sean útiles, que avisen correctamente a la hora de hacer un análisis de penetración.
+
+Para solventar esta vulnerabilidad se pueden aplicar buenas prácticas, como por ejemplo implementar un sistema de registro, configurarlo adecuadamente, utilizar herramientas automatizadas para el análisis de registos y hacer pruebas periódicas y auditorías del sistema de monitoreo.
+
+La propia OWASP 
+
+
 
