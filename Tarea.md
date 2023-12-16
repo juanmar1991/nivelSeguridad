@@ -13,8 +13,8 @@
 1. Enunciado
 2. Introducción
 3. Análisis de la vulnerabilidad
-4. Situaciones donde se puede dar
-5. Escenario
+4. Tres escenarios sobre la vulnerabilidad
+5. Escenario simulado
 
 
 
@@ -53,17 +53,40 @@ Las herramientas de registro y monitoreo nos ayudan a identificar patrones inusu
 
 ![ladron](img/ladron.jpg)
 
-_Cuando un ladrón entra en una casa particular, tiene primero que pisar el césped, abrir una ventana, desplazarse por la casa, perder tiempo examinando lo que se puede llevar, salir, etc. En todo ese proceso puede hacer ruido, dejar huellas de barro o cosas movidas de sitio, señales de que algo no va bien, pero seríamos incapaces de detectar todo eso si nadie comprueba el estado del césped, ni si las ventanas están correctamente cerradas, ni hace un inventario de las cosas que tiene junto con la comprobación de que las tiene todas. Si nadie tampoco observa las huellas de barro para determinar por qué ventana entraron, ni se para a analizar por qué hay un hueco donde antes había algo, el ladrón podría volver a repetir su hazaña todas las veces que quisiese porque nadie tendría manera de darse cuenta, **sería una casa muy vulnerable**, aunque contase con todo tipo de armas para hacer frente a un potencial ladrón._
+_Cuando un ladrón entra en una casa, tiene primero que pisar el césped, abrir una ventana, desplazarse por la casa, perder tiempo examinando lo que se puede llevar, salir, etc. En todo ese proceso puede hacer ruido, dejar huellas de barro o cosas movidas de sitio, señales de que algo no va bien, pero seríamos incapaces de detectar todo eso si nadie comprueba el estado del césped, ni si las ventanas están correctamente cerradas, ni hace un inventario de las cosas que tiene junto con la comprobación de que las tiene todas. Si nadie tampoco observa las huellas de barro para determinar por qué ventana entraron, ni se para a analizar por qué hay un hueco donde antes había algo, el ladrón podría volver a repetir su hazaña todas las veces que quisiese porque nadie tendría forma de darse cuenta, **sería una casa muy vulnerable**, aunque contase con todo tipo de armas para hacer frente a un potencial ladrón._
 
 
 
-Las consecuencias de esta vulnerabilidad son bastante importantes, se tarda más tiempo en detectar una brecha de seguridad, si es que se detecta, habiendo también imposibilidad de hacer un seguimiento adecuado a las señales sospechosas. Derivado de esto estaría la incapacidad de encontrar puntos vulnerables en el sistema al no poder realizar de forma adecuada una auditoría. Por último estaría el apartado de la normativa, donde seguro se incumpliría en muchos casos, lo que podría conllevar multas.
+Las consecuencias de esta vulnerabilidad son bastante importantes, se tarda más tiempo en detectar una brecha de seguridad, si es que se detecta, habiendo también imposibilidad de hacer un seguimiento adecuado a las señales sospechosas. Derivado de esto estaría la incapacidad de encontrar puntos vulnerables en el sistema al no poder realizar de forma adecuada una auditoría, se estaría expuesto a brechas de seguridad no detectadas. Por último estaría el apartado de la normativa, donde seguro se incumpliría en muchos casos, lo que podría conllevar multas si por ejemplo se vulnera la protección de datos.
 
 En cualquier momento pueden suceder eventos auditables, como inicios de sesión o transacciones de alto valor que tienen que ser registradas. Las advertencias y los errores tienen que generar registros claros y adecuados para identificar qué está fallando, y tienen que ser monitoreados para detectar actividades sospechosas. Los umbrales de alerta deben estar bien implementados para que sean útiles, que avisen correctamente a la hora de hacer un análisis de penetración.
 
 Para solventar esta vulnerabilidad se pueden aplicar buenas prácticas, como por ejemplo implementar un sistema de registro, configurarlo adecuadamente, utilizar herramientas automatizadas para el análisis de registos y hacer pruebas periódicas y auditorías del sistema de monitoreo.
 
-La propia OWASP 
+La propia OWASP publica una serie de controles que deben implementar los desarrolladores para prevenir este problema.
+
+
+
+> - Asegúrese de que todos los errores de inicio de sesión, de control de acceso y de validación de entradas de datos del lado del servidor se pueden registrar con suficiente contexto como para identificar cuentas sospechosas o maliciosas y mantenerlo durante el tiempo suficiente para permitir un posterior análisis forense.
+> - Asegúrese de que los registros se generen en un formato fácil de procesar por las herramientas de gestión de registros.
+> - Asegúrese de que los datos de registros son correctamente codificados para prevenir inyecciones o ataques en el sistema de monitoreo o registros.
+> - Asegúrese de que las transacciones de alto valor poseen una traza de auditoria con controles de integridad para evitar la modificación o el borrado, tales como permitir únicamente la inserción en las tablas de base de datos o similares.
+> - Los equipos de DevSecOps debe establecer alertas y monitoreo efectivo tal que se detecte actividades sospechosas y responderlas rápidamente.
+> - Establezca o adopte un plan de respuesta y recuperación, tal como NIST 800-61r2 o posterior.
+
+
+
+Sería también útil considerar la capacitación de los empleados en la identificación de patrones sospechosos, y generar un buen sistema de políticas claras sobre la manipulación de los registros. Una correcta implementación de un sistema eficaz de registro y monitoreo es fundamental para proteger los recursos de una organización al permitir detectar y dar respuesta adecuada a brechas de seguridad.
+
+
+
+### 4. Tres escenarios sobre la vulnerabilidad
+
+A continuación expondremos tres 
+
+
+
+### 5. Escenario simulado ###
 
 
 
