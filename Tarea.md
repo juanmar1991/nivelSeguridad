@@ -1,4 +1,4 @@
-![portada](img/portada.png)
+![port](img/PORTADA.png)
 
 <a name="indice"></a>
 
@@ -107,6 +107,8 @@ Si el servidor contase con un sistema adecuado de detección que alertara de sit
 
 
 
+
+
 **Segundo escenario**
 
 Otra empresa afectada por fallas en el registro y monitoreo fue _Amueblados_, una empresa de venta de mobiliario doméstico. Una cantidad considerable de personas empezó a notar de forma repentina que tenía cargos no reconocidos en sus tarjetas y cuentas bancarias. Todas estas personas contactaron con sus entidades bancarias para saber qué estaba pasando, los cuales reconocieron que los cargos eran muy extraños y no se correspondían con el patrón habitual de sus clientes, aunque no sabían la razón. Por otra parte, muchas de estas personas empezaron a recibir llamadas de publicidad de forma masiva.
@@ -118,6 +120,8 @@ Sin esfuerzo fue fácil demostrar que todas las personas de la base de datos hab
 Años antes se habían contratado varios servicios en la nube que redujeron el número de tareas que tenía que hacer el equipo de informática de la empresa, por lo que se decidió prescindir de él en su totalidad. El no haber dedicado recursos suficientes en este campo, comprobando el correcto funcionamiento de los sistemas de seguridad, junto con el hecho de haberse publicado a causa de ello la base de datos de los clientes en internet, llevó a la empresa a recibir la mayor multa de su historia, debilitándola mucho económicamente.
 
 En este caso fue una imprudencia dejar sin equipo de seguridad a la empresa, que tras pasar parte de su infraestructura digital a la nube dejó lo activos digitales que aun estaban físicamente dentro de la empresa totalemente desprotegidos. Las medidas de seguridad fueron cambiando, al igual que los ataques, pero estos activos no tenían forma de actualizarse, ni de configurarse correctamente tras cambios. **El sistema de registro y monitoreo que debía detectar ataques y alertar fue totalmente ineficiente porque con el tiempo su configuración quedó obsoleta** y no podía registrar los eventos, entre ellos los ataques y la posterior extracción de la base de datos.
+
+
 
 
 
