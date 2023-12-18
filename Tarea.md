@@ -141,7 +141,7 @@ La investigación sigue en curso, se intenta descubrir al distribuidor de los pr
 
 ### 5. Escenario simulado <a name="5"></a> ###
 
-Para este ejercicio aprovecharemos el contexto del escenario 3 anterior. Utilizaremos dos cámaras web de marcas diferentes y tras estudiar sus opciones analizaremos el impacto que tiene su buena o mala configuración.
+Para este ejercicio aprovecharemos el contexto del escenario 3 anterior. Utilizaremos dos cámaras web de marcas diferentes y tras estudiar sus opciones analizaremos el impacto que tiene su buena o mala configuración. Posteriormente haremos una prueba en video poniendo en práctica el escenario.
 
 
 
@@ -190,6 +190,14 @@ A diferencia de la cámara de Google, esta no almacena videos de los eventos en 
 Por último, la aplicación cuenta con controles para mover la cámara. Es importante asegurarse de que no se ha movido accidentalmente y sigue apuntando a donde queremos que grabe.
 
 ![8](img/8.jpg)
+
+**Escenario práctico**
+
+En este video pondremos a prueba una de las cámaras. Estará inicialmente apuntando hacia unas memorias USB que harán de activos de la empresa, y cambiaremos algunas opciones simulando una mala configuración para demostrar que la cámara deja de detectar los eventos importantes e impide con ello la monitorización de la incidencia. Se produciría una **falla en el registro y monitorización**.
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hbj_pQ8UZ2o?si=xY6jaXERCYFsfIuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 [Subir arriba](#indice)
 
