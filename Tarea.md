@@ -9,6 +9,7 @@
 3. [Análisis de la vulnerabilidad](#3)
 4. [Tres escenarios sobre la vulnerabilidad](#4)
 5. [Escenario simulado](#5)
+6. [Bibliografía](#6)
 
 
 
@@ -188,11 +189,26 @@ Por último, la aplicación cuenta con controles para mover la cámara. Es impor
 
 ![8](img/8.jpg)
 
+[Subir arriba](#indice)
 
 
 
+<a name="6"></a>
+
+### 6. Bibliografía ###
+
+-[Apuntes UD2 - IES San Clemente](https://manuais.pages.iessanclemente.net/plantillas/cec/pps/ud2/apuntes/)
+
+-[OWASP Top10](https://owasp.org/Top10/es/A09_2021-Security_Logging_and_Monitoring_Failures/)
+
+-[Blog de isecauditors](https://blog.isecauditors.com/2022/04/cambios-en-owasp-top-10-2021.html)
+
+-[cyte.co](https://www.cyte.co/post/owasp-top-10-2021#:~:text=A09%3A2021%2DFallas%20en%20el,y%20responder%20ante%20incidentes%20de)
+
+-[Canva](https://www.canva.com/)
+
+-[Generador imágenes Bing con IA](https://www.bing.com/images/create?FORM=BICMB1&ssp=1&darkschemeovr=0&setlang=es-CL&safesearch=moderate&toWww=1&redig=8195C3604CE2443CAD2B9B2FB3512087)
 
 
 
 [Subir arriba](#indice)
-
